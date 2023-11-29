@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./weekly_exam.css">
+    <script src="../template/header_footer.js" defer></script>
+    <script src="../template/previous_page.js" defer></script>
+    <title></title>
+</head><body>
+    <main>
+        <div class="problem_menu">
+            <div class="problem_menu_buttons">
+                <div class="problem_menu_button" onclick="getProblemNumber('A')">[A]</div>
+                <div class="problem_menu_button" onclick="getProblemNumber('B')">[B]</div>
+                <div class="problem_menu_button" onclick="getProblemNumber('C')">[C]</div>
+            </div>
+            <div class="problem_menu_buttons">
+                <div class="problem_menu_button">1</div>
+                <div class="problem_menu_button">2</div>
+                <div class="problem_menu_button">3</div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="problem_content"></div>
+            <pre id="code_content"></pre>
+        </div>
+    </main>
+    <script src="./weekly_exam.js"></script>
+</body></html>

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: rgb(30, 30, 30);
+}
+
+.menu_buttons {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+:root {
+    --menu_button_height: 150px;
+    --menu_button_width: 800px;
+}
+.menu_button {
+    background-color: rgb(100, 100, 100);
+    height: var(--menu_button_height);
+    width: var(--menu_button_width);
+    font-size: 100px;
+    text-align: center;
+    line-height: var(--menu_button_height);
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+.menu_button:hover {
+    background-color: rgb(150, 150, 150);
+}
